@@ -1,30 +1,41 @@
+.logo {
+  display : table;
+}
+
+.logo a{
+  text-decoration: none;
+  display: table-cell;
+  text-align:center;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top : 10px;
+  padding-left : 20px;
+  color : orange
+}
+
+.tradingview-widget-container{
+  display: table-cell;
+  padding-top: 10px;
+  padding-left: 10px;;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 30px 12px;
+    padding-top : 10px;
+    padding-bottom: 30px;
+    padding-left : 20px;
+    padding-right: 20px;
   }
-
-.navbar__logo i {
-    color: var(--accent-color);
-    padding-left: 0;
-  }
-
-.navbar__logo a{
-    text-decoration: none;
-    display: flex;
-    font-size: 25px;
-    font-weight: bold;
-    color : orange
-}
 
 .navbar__menu {
     list-style: none;
     display: table;
     align-items: center;
     margin: 0;
-    padding-left: 0;
+    
 }
   
 .top_menu {
@@ -62,16 +73,19 @@
 .sub_menu{
   display: table;
   width: 50%;
-  
   text-align: center;
   padding-right: 0;
 }
 
 .sub_menu li {
   display: table-cell;
-  height: 50px;
+  height: 100px;
   vertical-align: middle;
   cursor: pointer;
+  padding-top : 10px;
+  padding-bottom: 5px;
+  padding-left : 20px;
+  padding-right: 5px;
 }
 
 .sub_menu li:hover .sub_menu_link{
