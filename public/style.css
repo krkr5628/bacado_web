@@ -48,7 +48,7 @@
 .top_menu:hover .sub_navbar{
   display: table;
 }
-/*check*/
+
 .sub_navbar{
   display : none;
   width: 100%;
