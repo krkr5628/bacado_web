@@ -92,3 +92,15 @@
   color : purple;
   background-color: aquamarine;
 }
+
+.first_floor{
+  width : 100%;
+  display : table;
+}
+
+.press{
+  display : table-cell;
+  color : white;
+  padding : 10px 20px;
+  background-color: black;
+}
