@@ -1,16 +1,18 @@
 .logo {
-  display : table;
+  display : 100%;
+  background-color: black;
 }
 
 .logo a{
   text-decoration: none;
-  display: table-cell;
+  display: flex;
   text-align:center;
   font-size: 25px;
   font-weight: bold;
   padding-top : 10px;
+  padding-bottom: 10px;
   padding-left : 20px;
-  color : orange
+  color : White
 }
 
 .tradingview-widget-container{
@@ -67,7 +69,7 @@
   position: absolute;
   align-items: center;
   margin: 0;
-  top: 80px;
+  top: 90px;
   left: 0;
 }
 
@@ -96,11 +98,23 @@
 .first_floor{
   width : 100%;
   display : table;
+  color : white;
+  background-color: black;
 }
 
 .press{
   display : table-cell;
-  color : white;
   padding : 10px 20px;
-  background-color: black;
+}
+
+.second_floor {
+  width : 100%;
+  display : table;
+  color : black;
+  background-color: white;
+}
+
+.press2{
+  display : table-cell;
+  padding : 10px 20px;
 }
